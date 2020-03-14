@@ -12,7 +12,9 @@ h3 {
 }
 .roman {
     font-family: 'Times New Roman';
+    font-style: italic;
 }
 .times {
     font-family: Times;
+    font-style: italic;
 }
