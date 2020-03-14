@@ -27,3 +27,6 @@ ol {
 body {
     background-color: #33D7FF;
 }
+img {
+    float: left;
+}
