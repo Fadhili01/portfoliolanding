@@ -18,3 +18,9 @@ h3 {
     font-family: Times;
     font-style: italic;
 }
+ul {
+    line-height: 40px;
+}
+ol {
+    line-height: 40px;
+}
