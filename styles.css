@@ -29,6 +29,7 @@ img {
 }
 .test-box {
     border: 1px solid red;
+    padding: 2px;
 }
 .roman p {
     font-size: medium;
@@ -43,7 +44,8 @@ img {
     background-color: #33D7FF;
   }
   .column {
-    width: 420px;
+    column-gap: 10px;
+    column-width: 100px;
     float: left;
   }
 }
