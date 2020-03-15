@@ -24,13 +24,21 @@ ul {
 ol {
     line-height: 40px;
 }
-body {
-    background-color: #33D7FF;
-}
 img {
     float: none;
 }
-.column {
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: #33ACFF;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #33D7FF;
+  }
+  .column {
     width: 450px;
     float: left;
+    padding: 15px;
+  }
 }
